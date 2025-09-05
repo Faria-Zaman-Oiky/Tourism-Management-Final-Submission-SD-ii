@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <style type="text/css">
+      .signup-op a{
+        text-decoration: none;
+        border: 2px solid #000;
+        background-color: hwb(150 2% 45%);
+        padding: 8px 20px;
+        color: black;
+        transition: 0.8s ease;
+      }
+      .signup-op a:hover{
+        background-color: rgb(10, 1, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <header>   
+      
+        <div class="main">
+            <ul>
+              <ul class="list">
+                
+                  
+                  <div class="search">
+                    <form method="POST" action="info.php">
+                      <input type="text" name="search_p" placeholder="Search.." size="50">
+                  
+                      <input type="image" name="submit_p" src="images/searchicon.png" alt="Search image" style="width:22;height:22; margin-left: 60px; margin-top: 32px;">
+                    </form>
+                  </div>
+              </ul>
+              <ul class="list2">
+                <li class="active-menu"><a href="mainPage1.html">Home</a></li>
+                <li><a id="long" href="index1.php">user</a></li>
+            <li><a id="long" href="admin_ver.php">admin</a></li>
+            <li><a id="long" href="passport.html">verify passport</a></li>
+              </ul>
+            </ul>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    </header>
+    <br>
+
+    <div style="text-align:center">
+     
+    <div class="title">
+      <h1>Tourism Management System</h1>
+    </div>
+    <div class="contain">
+      <div class="heading">
+        <h2>Popular Destination</h2>
+         <div class="name-text left4">
+          <a href="index1.php" class="btn">Visit</a>
+        </div>
+      </div>
+      <div class="destination-btn">
+        <a href="index1.php">View all</a>
+      </div>
+    </div>
+      </div>
+    <div class="box">
+        <div class="imgBox">
+          <img src="images//cox's bazar.jpeg" alt="popular places Image" style="width: auto;height: 270px;">
+        </div>
+        <div class="name-text left1">
+          <h2>Cox's Bazar</h2>
+          <a href="index1.php" class="btn">Visit</a>
+        </div>
+    </div>
+      <div class="box">
+        <div class="imgBox">
+          <img src="images//sundarban.jpeg" alt="sundarban Image" style="width: auto;height: 270px;">
+        </div>
+        <div class="name-text left2">
+          <h2>Sundarban</h2>
+          <a href="index1.php" class="btn">Visit</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBox">
+          <img src="images//saintmartin.jpeg" alt="Saintmartin Image" style="width: auto;height: 270px;">
+        </div>
+        <div class="name-text left3">
+          <h2>Saint Martin's Island</h2>
+          <a href="index1.php" class="btn">Visit</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBox">
+          <img src="images//rangamati.jpeg" alt=" Rangamati Image" style="width: auto;height: 270px;">
+        </div>
+        <div class="name-text left4">
+          <h2>Rangamati</h2>
+          <a href="index1.php" class="btn">Visit</a>
+        </div>
+      </div>
+    
+       
+    <div class="about">
+      <h2>Abouts Us</h2>
+       <footer>
+          <a href="https://www.facebook.com/"> <img src="images//facebook.jpeg" height="25px" width="25px"> </a>
+          <a href="https://www.instagram.com/"> <img src="images//instagram.jpeg" height="25px" width="25px"> </a>
+          <a href="https://twitter.com/"> <img src="images//twitter.png" height="25px" width="25px"> </a>
+          
+         <p>Contact Information: jinatimami964@gmail.com</b></p>
+       </footer>
+    </div>
+
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+  </body>
+</html>
