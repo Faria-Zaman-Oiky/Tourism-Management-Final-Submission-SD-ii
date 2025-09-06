@@ -21,6 +21,6 @@
 - Admin must register/login to access the Admin Panel.  
 - Admin can add new places with details  
 - When uploading a picture for a new place, the image must be saved inside the  
-  images/place/ folder of the project.
+  images/places/ folder of the project.
 - 
   
