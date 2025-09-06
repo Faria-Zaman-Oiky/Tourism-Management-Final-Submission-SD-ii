@@ -1,0 +1,18 @@
+# Tourism Management System
+
+## Features
+- User Registration & Login  
+- Admin Panel for managing data  
+- Booking System  
+- Database connection with MySQL (XAMPP)  
+
+## Setup Instructions
+1. Install [XAMPP] and start *Apache* and *MySQL*.  
+2. Open phpMyAdmin and create a database named *travel*.  
+3. Import the SQL file from the database folder into the travel database.  
+4. Update database connection details in your PHP files if needed.  
+
+## Usage
+- 1st Register as Admin and then Login as *Admin* to access the Admin Panel.  
+- 1st Register as user and then Login as *User* to access the User Section.
+  
