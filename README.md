@@ -13,6 +13,14 @@
 4. Update database connection details in your PHP files if needed.  
 
 ## Usage
+- The project starts from mainPage1.html
 - 1st Register as Admin and then Login as *Admin* to access the Admin Panel.  
 - 1st Register as user and then Login as *User* to access the User Section.
+
+### Admin Section
+- Admin must register/login to access the Admin Panel.  
+- Admin can add new places with details  
+- When uploading a picture for a new place, the image must be saved inside the  
+  images/place/ folder of the project.
+- 
   
