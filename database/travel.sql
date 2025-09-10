@@ -182,7 +182,7 @@ CREATE TABLE users (
     PRIMARY KEY (id),
     UNIQUE KEY email (email)
 );
-CREATE TABLE travel_agents (
+CREATE TABLE travel_agent (
     aid INT(11) DEFAULT NULL,
     afname VARCHAR(100) DEFAULT NULL,
     aemail VARCHAR(100) DEFAULT NULL,
