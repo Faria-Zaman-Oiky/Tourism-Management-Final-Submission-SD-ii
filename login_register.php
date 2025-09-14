@@ -33,7 +33,7 @@ $_SESSION['name']= $user['name'];
 $_SESSION['email']= $user['email'];
 
 if($user['role'] === 'admin'){
-    header("Location: admin.php");
+    header("Location: ad__.php");
 }else{
     header("Location: user_page.php");
 }
