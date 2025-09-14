@@ -64,7 +64,7 @@ if(isset($_POST['search_p']) && $_POST['search_p'] != "") {
                 <li><a href="mainPage1.html">Home</a></li>
                 <li><a id="long" href="destination.php">Destination</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="feedback123.html">Feedback</a></li>
                 <li><a href="logout.php">Logout</a></li>
             </ul>
         </ul>
