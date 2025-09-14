@@ -10,7 +10,11 @@
 1. Install [XAMPP] and start *Apache* and *MySQL*.  
 2. Open phpMyAdmin and create a database named *travel*.  
 3. Import the SQL file from the database folder into the travel database.  
-4. Update database connection details in your PHP files if needed.  
+4. Update database connection details in your PHP files if needed.
+5. Click Code>Download ZIP.
+6. Place it in Xampp's htdocs folder.
+7. Open the browser and go to localhost.
+8. Run the project.
 
 ## Usage
 - The project starts from mainPage1.html
